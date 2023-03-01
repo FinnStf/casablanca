@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, calc((100% - 400px) / 2)));
+    gap: 1rem;
+    margin: 2rem .5rem;
+    justify-content: center;
+}
+@media screen and (min-width:800px) {
+    .grid-container {
+        gap: 3rem;
+    }
+}

@@ -1,0 +1,30 @@
+.first-panel{
+    width: 100%;
+    min-height: calc(100vh - 6rem);
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+.background-image{
+    position: absolute;
+    width: 100%;
+    min-height: inherit;
+    object-fit: cover;
+    opacity: 0.6;
+}
+.content-wrapper{
+    width: 80%;
+    max-width: 40rem;
+    position: relative;
+    left: 10%;
+    top: 5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+}
+.text-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}

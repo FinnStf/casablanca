@@ -1,0 +1,43 @@
+.side-menu {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item {
+    background-color: #ffffff;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: .5rem 0rem;
+    transition: all 0.5s;
+    border-radius: 0 1rem 1rem 0;
+    transform: translateX(calc(-100% + 3rem));
+}
+
+.item:hover {
+    transform: translateX(0);
+    color: black;
+}
+
+.item span{
+    padding: 0 2rem;
+}
+
+.item svg {
+    background: #00AABD;
+    color: #ffffff;
+    height: 2rem;
+    width: 2rem;
+    padding: .5rem;
+}

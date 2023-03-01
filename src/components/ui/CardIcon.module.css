@@ -1,0 +1,56 @@
+.box {
+    background: #EAEAEA;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0rem;
+}
+.box > span{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.box > svg{
+    width: 30%;
+    height: auto;
+}
+
+#box-one {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+}
+
+#box-two {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 3;
+}
+
+#box-three {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 3;
+}
+
+#box-four {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 3;
+}
+
+#box-five {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 3;
+}
+
+#box-six {
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 3;
+}
+
+@media only screen and (min-width:1350px) {
+    .box {
+        padding: 5rem 2rem;
+    }
+
+}

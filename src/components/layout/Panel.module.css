@@ -1,0 +1,15 @@
+.panel{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 10rem);
+}
+@media screen and (min-width:1300px) {
+    .panel{
+        left: 15%;
+        width: 70%;
+    }
+}

@@ -1,0 +1,41 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 10rem);
+}
+
+.image-wrapper {
+    display: none;
+}
+
+.image-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    max-width: 60rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.form-wrapper form {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width:800px) {
+    .image-wrapper {
+        display: block;
+    }
+}
